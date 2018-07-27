@@ -1,0 +1,82 @@
+
+body{
+    margin:0px;
+    background-color: whitesmoke;
+}
+.Header{
+    height: 40vh;
+    font-size: 50px;
+    background-image: url("HeaderSmall.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;   
+    text-align: center;
+    border: 2px none black
+}
+.Menu{
+    height: 6vh;
+    font-size: 25px;
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top:31vh;                              
+    text-align:center;
+    border: 2px none blue;
+    background-color: black;
+    padding-bottom: 3vh;
+    opacity: .7;     
+
+}
+.MenuList{
+    width: 100%;
+    float:left;
+    text-align: center;                
+    color:white;
+    font-size: 2.2em;
+    border: 2px none red;
+    text-decoration: none;
+}
+#Home{
+    position: fixed;
+    top:5vh;
+    left:5vh;
+    height: 10vh;
+}          
+.ArtList{
+    border:2px none black;
+    font-size: 20px;
+    margin:8vh 10%;
+    width:80%;
+    text-align: justify;                
+    text-align: center;
+    color:black;
+}
+.ArtImage{
+    width: 25%; 
+
+}
+.ArtImageDescription{
+    width: 45%;  
+    font-size: 2.5em; 
+}
+.Description{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 8%;
+}
+.CircleImage{
+    border-radius: 100%;
+    margin: 2vh 0;
+}
+.Footer{
+    padding-top: 2vh;
+    position: relative;
+    height: 12vh;
+    font-size: 2em;
+    margin-top:50px;
+    background-color: #cc0a2d;                
+    right: 0;
+    bottom: 0;
+    left: 0;  
+    text-align: center;
+    color:whitesmoke;
+}

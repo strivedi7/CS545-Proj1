@@ -1,0 +1,94 @@
+/*
+    Trivedi, Saurabh
+    Project #1
+    Fall 2017    
+*/
+body{
+    margin:0px;
+    background-color: whitesmoke;
+}
+.Header{
+    height: 40vh;
+    font-size: 50px;
+    background-image: url("HeaderSmall.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;   
+    text-align: center;
+    border: 2px none black
+}
+.Menu{
+    height: 6vh;
+    font-size: 22px;
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top:31vh;                              
+    text-align:center;
+    border: 2px none blue;
+    background-color: black;
+    padding-bottom: 3vh;
+    opacity: .7;              
+}
+.MenuList{
+    width: 100%;
+    float:left;
+    text-align: center;                
+    color:white;
+    font-size: 2.2em;
+    border: 2px none red;
+    text-decoration: none;
+}
+#Home{
+    position: fixed;
+    top:5vh;
+    left:5vh;
+    height: 10vh;
+}
+#Site{
+    border:2px none black;
+    display:table;
+    margin: 0 10%;          
+}
+
+.SiteImageBig{
+    height: 40vh;
+    width: auto;
+    float: left;
+    margin-top:2%;
+    margin-left:2%;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.SiteImageDescriptionBig{
+    height: 30vh;;
+    width: 40%;              
+    margin-top:2%;
+    margin-left: 8%;
+    border:1px none black;
+    font-size: 2.5em;
+    display: table;
+    margin:4%;
+    padding-left: 4%;
+    color:black;
+
+
+}
+.SiteImageDescriptionSmall{
+    font-size: 20px;
+    margin:5px;
+}
+
+
+.Footer{
+    padding-top: 2vh;
+    position: relative;
+    height: 12vh;
+    font-size: 2em;
+    margin-top:50px;
+    background-color: #cc0a2d;                
+    right: 0;
+    bottom: 0;
+    left: 0;  
+    text-align: center;
+    color:whitesmoke;
+}

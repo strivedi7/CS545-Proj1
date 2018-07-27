@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+    background-color: whitesmoke;
+}
+.Header{
+    height: 40vh;
+    font-size: 50px;
+    background-image: url("HeaderSmall.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;   
+    text-align: center;
+    border: 2px none black
+}
+.Menu{
+    height: 6vh;
+    font-size: 25px;
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top:31vh;                              
+    text-align:center;
+    border: 2px none blue;
+    background-color: black;
+    padding-bottom: 3vh;
+    opacity: .7;              
+}
+.MenuList{
+    width: 100%;
+    float:left;
+    text-align: center;                
+    color:white;
+    font-size: 2.2em;
+    border: 2px none red;
+    text-decoration: none;
+}
+#Home{
+    position: fixed;
+    top:5vh;
+    left:5vh;
+    height: 10vh;
+}
+
+#FoodBoxList{
+    width: 80%;                
+    display: table;
+    margin: 0 10%;
+    margin-top: 2vh;
+    border: none 2px gray;                
+    border-radius: 5px;
+    padding:10px;  
+    padding-top: 8px;
+}
+.FoodBox{
+    width: 70%;
+    height: 25vh;
+    border: solid 1.5px black;
+    color:  black;
+    font-size: 3em;
+    border-radius: 5px;
+    margin:3px auto;
+
+}
+.RestroDiscription{
+    font-size: 20px;
+}
+.RestroNameBox{
+    width: 60%;
+    height:22vh;
+    border: 2px none black;
+    display: table-cell;
+    float:left;
+    margin: 1vh 0;
+    margin-left: 50px;
+}
+.RestroImage{
+    float:right;
+    display: table-cell;
+    margin:1vh 7px;
+    margin-bottom: 0;
+    height: 23vh;                
+    border: 1px solid #d7d7c1;
+}
+.Footer{
+    padding-top: 2vh;
+    position: relative;
+    height: 12vh;
+    font-size: 2em;
+    margin-top:50px;
+    background-color: #cc0a2d;                
+    right: 0;
+    bottom: 0;
+    left: 0;  
+    text-align: center;
+    color:whitesmoke;
+}
+

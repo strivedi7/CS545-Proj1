@@ -1,0 +1,351 @@
+/*
+    Trivedi, Saurabh
+    Project #1
+    Fall 2017    
+*/
+body{
+    margin:0px;
+    background-color: whitesmoke;
+}
+.Header{
+    height: 70vh;
+    font-size: 50px;
+    background-image: url("Header.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;   
+    text-align: center;
+    border: 2px none black
+}
+.Menu{
+    height: 5vh;
+    font-size: 22px;
+    color: whitesmoke;
+    position: absolute;
+    width: 90%;
+    top:64vh;
+    padding: 0 5%;                
+    text-align:center;
+    border: 2px none blue;
+    background-color: black;
+    padding-bottom: 1vh;
+    opacity: .7;              
+}
+.MenuList{
+    margin: 0 2%;
+
+    float:left;
+    text-align: center;                   
+    margin-top:5px;
+    color:white;
+    font-size: 1.4em;
+    border: 2px none red;
+    text-decoration: none;
+
+}
+
+.Inroduction{
+    border:2px none black;
+    display:table;
+    width:100%
+}
+#ImageBox{               
+    float:left;
+
+    margin:4vh 10%;
+    margin-right: 0px;
+    width: 40%;
+    display: table-cell;
+}
+#ImageDescription{
+    font-size: 20px;
+    float:right;                
+    margin:4vh 0px;
+    margin-right:10%;
+    width: 80%;
+    text-align: justify;
+    display: table-cell;
+}
+.Bold{
+    font-weight: bold;
+    float:left;
+}
+#History{
+    border:2px solid black;
+    border-radius: 5px;
+    display:table;
+    margin:0 10%;
+    background-color:graytext;
+    background-image: url("History.png");
+    background-repeat:no-repeat;
+    background-size: cover;                
+    font-size:50px;
+}
+.Title{
+    margin-top:4vh;
+    margin-bottom:2vh;
+    font-size:2.5em;
+    text-align:center;
+
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+#HistoryDetails{
+    border:2px none black;
+    font-size: 20px;
+    color:white;
+    text-align: justify;
+    margin:4vh 7%;
+}
+#Neighborhoods{
+    border:2px none black;
+    display:table;
+    width:100%;
+
+}
+#NeighborhoodsList{
+    border:2px none black;
+    font-size: 20px;
+    margin:0 10%;
+    text-align: justify;
+    margin-bottom:4vh;
+    text-align: center;
+    color:black;
+
+}
+.NeighborhoodsImage{
+    width: 23.5%;
+    height:30vh;
+
+    float:left;
+    margin-top: 2vh;
+    margin-right:2%;
+    margin-bottom:4vh;
+
+}
+.NeighborhoodsImageLast{
+    width: 23.5%;
+    height:30vh;
+    border: 2px none black;
+    float:left;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+#Art{
+    border:2px none black;
+    display:table;
+    width:100%;
+}
+#ArtList{
+    border:2px none black;
+    font-size: 20px;
+    margin:0 10%;
+    text-align: justify;
+    margin-bottom:4vh;
+    text-align: center;
+    color:black;
+}
+.ArtImage{
+    width: 28%;
+    border: 2px none black;
+    float:left;
+    margin-top: 2vh;
+    margin-right:6%;
+    text-align: center;   
+    font-size: 1.2em;
+}
+.ArtImageLast{
+    width: 28%;
+    border: 2px none black;
+    float:left;
+    margin-top: 2vh;                
+    font-size: 1.2em; 
+}
+.CircleImage{
+    border-radius: 100%;
+}
+#Site{
+    border:2px none black;
+    display:table;
+    width:100%;              
+
+}
+#SiteList{
+    border: 2px solid brown;
+    border-radius: 5px; 
+    font-size: 20px;
+    margin:0 10%;
+    text-align: justify;
+    margin-bottom:4vh;
+    background-color: bisque;
+    background-image: url("Places.jpg");                
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+#SiteImageBig{
+    height: 50%;
+    width: auto;
+    float: left;
+    margin-top:2%;
+    margin-left:2%;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+#SiteImageDescriptionBig{
+    height: 38%;
+    width: 40%;              
+    margin-top:2%;
+    margin-left: 8%;
+    border:1px none black;
+    font-size: 2.5em;
+    display: table;
+    margin:4%;
+    padding-left: 4%;
+    color:black;
+
+
+}
+#SiteImageDescriptionSmall{
+    font-size: 20px;
+    margin:5px;
+
+}
+#SiteImage01{
+    width: 22.25%;
+    height:30%;
+    border: 1px solid white;
+    float:left;
+    margin-top: 2vh;
+    margin-left:2%;
+    margin-bottom: 4vh;
+    background-image: url("S01.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; 
+    border-radius: 2px;
+}
+#SiteImage02{
+    width: 22.25%;
+    height:30%;
+    border: 1px solid white;
+    float:left;
+    margin-top: 2vh;
+    margin-left:2%;
+    margin-bottom: 4vh;
+    background-image: url("S02.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; 
+    border-radius: 2px;
+}
+#SiteImage03{
+    width: 22.25%;
+    height:30%;
+    border: 1px solid white;              
+    float:left;
+    margin-top: 2vh;
+    margin-left:2%;
+    margin-bottom: 4vh;
+    background-image: url("S03.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;  
+    border-radius: 2px;
+}
+#SiteImage04{
+    width: 22.25%;
+    height:30%;
+    border: 1px solid white;
+    float:left;
+    margin-top: 2vh;
+    margin-left:2%;
+    margin-bottom: 4vh;
+    background-image: url("S04.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;   
+    border-radius: 2px;
+}
+
+#SiteImage01:hover .TooltipText {
+    visibility: visible;
+}
+#SiteImage02:hover .TooltipText {
+    visibility: visible;
+}
+#SiteImage03:hover .TooltipText {
+    visibility: visible;
+}
+#SiteImage04:hover .TooltipText {
+    visibility: visible;
+}
+.TooltipText{
+    visibility: hidden;
+    width:250px;
+    background-color: black;
+    color: White;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px 0;
+    opacity: .8;          
+    z-index: 1;
+}
+#Food{
+    border:2px none black;
+    display:table;
+    width:100%;
+}       
+#FoodBoxList{
+    width: 80%;
+    display: table;
+    margin: 0 10%;
+    border: solid 2px gray;
+    background-image: url("FoodBack02.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; 
+    border-radius: 5px;
+    padding:10px;  
+    padding-top: 8px;
+
+}
+.FoodBox{
+    width: 65%;
+    height: 20vh;
+    border: solid 1.5px #d7d7c1;
+    color:  white;
+    font-size: 3em;
+    border-radius: 5px;
+    margin-left: 34%;
+    margin-top: 2px;
+    float:right;                
+}
+.RestroDiscription{
+    font-size: 20px;
+}
+.RestroNameBox{
+    width: 60%;
+    height:17.8vh;
+    border: 2px none black;
+    display: table-cell;
+    float:left;
+    margin: 1vh 0;
+    margin-left: 50px;
+}
+.RestroImage{
+    float:right;
+    display: table-cell;
+    margin:1vh 7px;
+    height: 18vh;                
+    border: 1px solid #d7d7c1;
+}
+.Footer{
+    padding-top: 5vh;
+    position: relative;
+    height: 20vh;
+    font-size: 2em;
+    margin-top:50px;
+    background-color: #cc0a2d;                
+    right: 0;
+    bottom: 0;
+    left: 0;  
+    text-align: center;
+    color:whitesmoke;
+}

@@ -1,0 +1,112 @@
+/*
+    Trivedi, Saurabh
+    Project #1
+    Fall 2017    
+*/
+body{
+    margin:0px;
+    background-color: whitesmoke;
+}
+.Header{
+    height: 40vh;
+    font-size: 50px;
+    background-image: url("HeaderSmall.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;   
+    text-align: center;
+    border: 2px none black;
+    margin-bottom: 5vh;
+}
+.Menu{
+    height: 6vh;
+    font-size: 22px;
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top:31vh;                              
+    text-align:center;
+    border: 2px none blue;
+    background-color: black;
+    padding-bottom: 3vh;
+    opacity: .7; 
+
+}
+.MenuList{
+    width: 100%;
+    float:left;
+    text-align: center;                
+    color:white;
+    font-size: 2.2em;
+    border: 2px none red;
+    text-decoration: none;
+    border: 4px none black;
+
+}
+#Home{
+    position: fixed;
+    top:5vh;
+    left:5vh;
+    height: 10vh;
+}
+#GelleryLogo{
+    position: absolute;
+    top:18vh;
+    left:5vh;
+    height: 10vh;
+}
+#ImageDescription{
+    font-size: 20px;                               
+    margin:2vh 10%;              
+
+    text-align: justify;
+
+}
+.Bold{
+    font-weight: bold;
+    float:left;
+}
+.Title{
+    font-weight: bold;
+    margin:0 10%;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+.Image{
+    width: 24%;
+    height:30vh;
+    float:left;
+    margin-top: 4vh;
+    margin-right:1%;
+    margin-bottom:4vh;
+    border:1px solid black;
+}
+.ImageLast{
+    width: 24%;
+    height:30vh;
+    border: 2px none black;
+    float:left;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border:1px solid black;
+}
+#Gallery{
+
+    margin:0 10%;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+.Footer{
+    padding-top: 2vh;
+    position: relative;
+    height: 12vh;
+    font-size: 2em;
+    margin-top:88vh;
+    background-color: #cc0a2d;                
+    right: 0;
+    bottom: 0;
+    left: 0;  
+    text-align: center;
+    color:whitesmoke;
+}
